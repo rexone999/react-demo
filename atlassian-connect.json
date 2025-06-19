@@ -1,0 +1,21 @@
+{
+  "key": "sample",
+  "name": "sample",
+  "baseUrl": "https://<your-render-app-url>",
+  "authentication": {
+    "type": "none"
+  },
+  "modules": {
+    "generalPages": [
+      {
+        "key": "sample-page",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "Sample"
+        },
+        "url": "/",
+        "conditions": []
+      }
+    ]
+  }
+}
